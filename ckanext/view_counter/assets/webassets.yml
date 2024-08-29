@@ -1,0 +1,14 @@
+# view_counter-js:
+#   filter: rjsmin
+#   output: ckanext-view_counter/%(version)s-view_counter.js
+#   contents:
+#     - js/view_counter.js
+#   extra:
+#     preload:
+#       - base/main
+
+# view_counter-css:
+#   filter: cssrewrite
+#   output: ckanext-view_counter/%(version)s-view_counter.css
+#   contents:
+#     - css/view_counter.css
